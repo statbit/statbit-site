@@ -2,3 +2,14 @@ baseURL = 'https://statbit.me/'
 languageCode = 'en-us'
 title = 'Statistical Bits and Boops'
 theme = 'ananke'
+
+[params]
+site_logo = "images/logo.png"
+
+[[params.ananke_socials]]
+name = "mastodon"
+url = "https://mastodon.social/@statbit"
+
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://instagram.com/statbit"
