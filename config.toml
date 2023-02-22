@@ -13,3 +13,9 @@ url = "https://mastodon.social/@statbit"
 [[params.ananke_socials]]
 name = "instagram"
 url = "https://instagram.com/statbit"
+
+[[deployment.targets]]
+
+name = "amazon"
+URL = "s3://www.statbit.me?region=us-east-1"
+
