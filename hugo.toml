@@ -1,3 +1,32 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://www.statbit.me/"
+languageCode = "en-us"
+title = "statbit"
+theme = "PaperMod"
+
+uglyURLs = false
+canonifyURLs = true
+
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = "production"
+  description = "Notes on software, systems, and ideas."
+  defaultTheme = "auto"   # dark/light based on OS
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+
+  mainSections = ["posts"]
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
